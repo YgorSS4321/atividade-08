@@ -1,0 +1,51 @@
+header {
+    border: 4px solid red;
+    margin: 16px 32px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main div #menu{
+    border: 4px solid green;
+    padding-inline: 32px;
+    color: green;
+}
+
+main div #content{
+    border:4px solid blue;
+    padding-inline: 449px;
+    color: blue;
+
+    
+}
+
+main div #call-to-action {
+    border: 4px solid green;
+    padding-inline: 32px;
+    color: green;
+}
+
+
+main div {
+    display:inline-block;
+    height: 512px;
+}
+
+main{
+    margin-inline: 32px;        
+}
+
+
+
+footer{
+    border: 4px solid red;
+    margin: 16px 32px;
+    color: red;
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: center;
+}
+

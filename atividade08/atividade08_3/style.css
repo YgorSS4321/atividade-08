@@ -1,0 +1,82 @@
+header{
+    background-color: rgb(0, 0, 255);
+    color:white;
+
+    position:relative;
+    top: 8px;
+    display: flex;
+    justify-content: center;
+
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+body{
+    background-color: gray;
+    margin-inline: 64px;
+    
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+main{
+    background-color: white;
+    padding: 16px;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    
+    
+}
+
+main form div.ler-nomes{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 16px;
+}
+
+main form div.ler-nomes div label{
+    display: block;
+}
+
+main form div.ler-g-age{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 16px;
+}
+
+main form div.ler-g-age div.ler-age label{
+    display:block;
+}
+
+main form div #email{
+    width:100%;
+    margin-bottom: 16px;
+}
+
+main form div.ler-password {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 16px;
+
+}
+
+main form div.ler-password div label{
+    display: block;
+}
+
+main form > input{
+    width: 100%;
+    background-color: rgb(128, 128, 128, 0.2);
+    color: rgb(128, 128, 128, 0.8);
+    margin-bottom: 16px;
+}
+
+main form > input:last-child{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    margin-bottom: 16px;
+}
